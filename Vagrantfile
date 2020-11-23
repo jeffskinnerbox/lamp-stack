@@ -179,7 +179,6 @@ SHELL
     # setup mysql configure file to avoid inputing password
     DBPASSWD='mysql-password'
     echo -e "[client]\nuser = root\npassword = $DBPASSWD" >> ~/.my.cnf
-EOF
 SHELL
 
   # ---------------- create your phpmyadmin environment (as root) --------------
